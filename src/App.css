@@ -1,38 +1,60 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Roboto+Mono:wght@300&display=swap');
+
+
+:root {
+ --primary-color-a:aliceblue;
+ --primary-bg-color: orange;
+ --primary-dark: rgba(2,0,3, .5);
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  
+  font-family: 'Quicksand', sans-serif;
+  
+
+}
+/*--- navbar ---*/
+.logo {
+   border: 1px solid var(--primary-color-a);
+   width: 3.75rem;
+   
+}
+nav > a > .nav-link {
+  cursor: pointer;
+  font-size: 0.8rem;
+  letter-spacing: 0.0375rem;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar-nav > li > a {
+  margin-right: 0.75rem ;
+  margin-left: 0.75rem ;
+  color:var(--primary-color-a) !important;
+  border-top: 0.1875rem solid var(--primary-dark);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.navbar-brand {
+  max-width: 17.25rem;
+  padding:0 !important;
+  height: 6rem !important;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-link {   
+  letter-spacing:0.031rem;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar-nav > li >a.active,
+.navbar-nav > li >a.active:focus {
+  border-top: 0.1875rem solid var(--primary-bg-color);
 }
+
+.navbar-nav > li > a:hover {
+  border-top: 0.1875rem solid var(--primary-bg-color);
+}
+
+
+
+
+
