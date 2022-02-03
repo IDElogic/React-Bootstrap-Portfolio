@@ -8,6 +8,7 @@
  --primary-dark: rgba(2,0,3, .3);
  --prymary-hover-color: #e4d00a;
  --primary-border-color:rgba(2,0,3, .5);
+ --color-timer: deeppink;
 
 }
 
@@ -116,7 +117,30 @@ nav > a > .nav-link {
   text-decoration: none;
   color: var(--primary-dark);
 }
-
+/*--- btn-timer ---*/
+.btn-timer {
+  width:18.75rem ;
+  height:2.5rem ;
+  border: 1px solid var(--secondary-color);
+  border-radius: .313rem;
+  margin: 2.5rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--primary-dark);
+  background-color: var(--primary-bg-color);
+  position: relative;
+  overflow: hidden;
+}
+.loading-bar {
+  position: absolute;
+  width: 80%;
+  height: 100%;
+  right: 0;
+  background-color: var(--color-timer);
+  opacity: 30%;
+  transition: all 1000ms linear;
+}
 /*--- about ---*/
 #about {
   background-color: #fefefe;

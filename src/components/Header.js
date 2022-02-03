@@ -11,8 +11,8 @@ const Header = () => {
             strings = {["WebDesign","WebDevelopment", "SocialMediaMarketing","WebshopManagement" ]}
             typeSpeed = {40}
             backSpeed = {60}
-            loop
-        />
+            loop/>
+      <div></div>
         <a href='https://blibb.net/kontakt.html' className='btn-main-offer'>Contact me</a>
       </div>
   </div>
