@@ -18,10 +18,10 @@ const Navbar = () => {
                     <a className="nav-link" href="#">Home<span className="sr-only"></span></a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="#">About me</a>    
+                    <a className="nav-link" href="#about">About me</a>    
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="#">Services</a>    
+                    <a className="nav-link" href="#services">Services</a>    
                 </li>
                 <li className="nav-item">
                     <a className="nav-link" href="#">How work</a>    
@@ -30,7 +30,7 @@ const Navbar = () => {
                     <a className="nav-link" href="#">Portfolio</a>    
                 </li> 
                 <li className="nav-item">
-                    <a className="nav-link" href="#">Contact</a>    
+                    <a className="nav-link" href="#footer">Contact</a>    
                 </li> 
             </ul>
         </div>
